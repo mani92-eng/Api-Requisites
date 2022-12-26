@@ -1,0 +1,264 @@
+{
+  "posts": [
+    {
+      "first_name": "Ayyapp",
+      "last_name": "A",
+      "Gender": true,
+      "email": "janaki.pulikonda@gmail.com",
+      "dptname": "Auto",
+      "id": 25
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "Gender": "",
+      "email": "",
+      "dptname": "",
+      "id": 26
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "Gender": "",
+      "email": "",
+      "dptname": "",
+      "id": 27
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "Gender": "",
+      "email": "",
+      "dptname": "",
+      "id": 28
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "Gender": "",
+      "email": "",
+      "dptname": "",
+      "id": 29
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "Gender": "",
+      "email": "",
+      "dptname": "",
+      "id": 30
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "Gender": "",
+      "email": "",
+      "dptname": "",
+      "id": 31
+    },
+    {
+      "first_name": "manikanta",
+      "last_name": "pulikonda",
+      "Gender": true,
+      "email": "pulikonda.manikanta@gmail.com",
+      "dptname": "Sales",
+      "id": 32
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "Gender": "",
+      "email": "",
+      "dptname": "",
+      "id": 33
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "Gender": "",
+      "email": "",
+      "dptname": "",
+      "id": 34
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "Gender": "",
+      "email": "",
+      "dptname": "",
+      "id": 35
+    }
+  ],
+  "Departments": [
+    {
+      "dptno": 1,
+      "dptname": "Sales",
+      "dptlocation0": "hyd"
+    },
+    {
+      "dptno": 2,
+      "dptname": "Auto",
+      "dptlocation0": "bangloor"
+    },
+    {
+      "dptno": 3,
+      "dptname": "Medical",
+      "dptlocation0": "guntur"
+    },
+    {
+      "dptno": 4,
+      "dptname": "Other",
+      "dptlocation0": "world"
+    }
+  ],
+  "comments": [
+    {
+      "id": 7,
+      "dptno": 0,
+      "dptname": "sales",
+      "Gender": false,
+      "email": "michael.lawson@reqres.in",
+      "first_name": "Michael",
+      "last_name": "Lawson",
+      "avatar": "https://reqres.in/img/faces/7-image.jpg"
+    },
+    {
+      "id": 8,
+      "dptno": 0,
+      "dptname": "auto",
+      "dptlocation0": "bangloor",
+      "Gender": false,
+      "email": "lindsay.ferguson@reqres.in",
+      "first_name": "Lindsay",
+      "last_name": "Ferguson",
+      "avatar": "https://reqres.in/img/faces/8-image.jpg"
+    },
+    {
+      "id": 9,
+      "dptno": 0,
+      "dptname": "medical",
+      "dptlocation0": "guntur",
+      "Gender": false,
+      "email": "tobias.funke@reqres.in",
+      "first_name": "Tobias",
+      "last_name": "Funke",
+      "avatar": "https://reqres.in/img/faces/9-image.jpg"
+    },
+    {
+      "id": 10,
+      "dptno": 0,
+      "dptname": "other",
+      "dptlocation0": "world",
+      "Gender": false,
+      "email": "byron.fields@reqres.in",
+      "first_name": "Byron",
+      "last_name": "Fields",
+      "avatar": "https://reqres.in/img/faces/10-image.jpg"
+    },
+    {
+      "id": 11,
+      "dptno": 0,
+      "dptname": "sales",
+      "dptlocation0": "hyd",
+      "Gender": false,
+      "email": "george.edwards@reqres.in",
+      "first_name": "George",
+      "last_name": "Edwards",
+      "avatar": "https://reqres.in/img/faces/11-image.jpg"
+    },
+    {
+      "id": 12,
+      "dptno": 0,
+      "dptname": "auto",
+      "dptlocation0": "bangloor",
+      "Gender": true,
+      "email": "rachel.howell@reqres.in",
+      "first_name": "Rachel",
+      "last_name": "Howell",
+      "avatar": "https://reqres.in/img/faces/12-image.jpg"
+    },
+    {
+      "first_name": "manikanta",
+      "last_name": "pulikonda",
+      "Gender": true,
+      "email": "pulikonda.manikanta@gmail.com",
+      "dptname": "Sales",
+      "id": 13
+    },
+    {
+      "first_name": "manikanta",
+      "last_name": "pulikonda",
+      "Gender": true,
+      "email": "pulikonda.manikanta@gmail.com",
+      "dptname": "Sales",
+      "id": 14
+    },
+    {
+      "first_name": "manikanta",
+      "last_name": "pulikonda",
+      "Gender": true,
+      "email": "pulikonda.manikanta@gmail.com",
+      "dptname": "Sales",
+      "id": 15
+    },
+    {
+      "first_name": "manikanta",
+      "last_name": "pulikonda",
+      "Gender": true,
+      "email": "pulikonda.manikanta@gmail.com",
+      "dptname": "Auto",
+      "id": 16
+    },
+    {
+      "first_name": "manikanta",
+      "last_name": "pulikonda",
+      "Gender": true,
+      "email": "pulikonda.manikanta@gmail.com",
+      "dptname": "Sales",
+      "id": 17
+    },
+    {
+      "first_name": "manikanta",
+      "last_name": "pulikonda",
+      "Gender": true,
+      "email": "pulikonda.manikanta@gmail.com",
+      "dptname": "Sales",
+      "id": 18
+    },
+    {
+      "first_name": "manikanta",
+      "last_name": "pulikonda",
+      "Gender": true,
+      "email": "pulikonda.manikanta@gmail.com",
+      "dptname": "Sales",
+      "id": 19
+    },
+    {
+      "first_name": "manikanta",
+      "last_name": "pulikonda",
+      "Gender": true,
+      "email": "pulikonda.manikanta@gmail.com",
+      "dptname": "Sales",
+      "id": 20
+    },
+    {
+      "first_name": "manikanta",
+      "last_name": "pulikonda",
+      "Gender": true,
+      "email": "pulikonda.manikanta@gmail.com",
+      "dptname": "Sales",
+      "id": 21
+    },
+    {
+      "id": 22
+    }
+  ],
+  "profile": {
+    "first_name": "manikanta",
+    "last_name": "pulikonda",
+    "Gender": "",
+    "email": "pulikonda.manikanta@gmail.com",
+    "dptname": "",
+    "id": 25
+  }
+}

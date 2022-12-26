@@ -1,0 +1,72 @@
+<form [formGroup]="myform" (ngSubmit)="submit()">
+<div>
+    <label for="">Firstname</label>
+    <input type="text"name="first_name" formControlName="first_name"><br>
+    <span *ngIf="submited && myform.controls.first_name.invalid">please name</span>
+</div><br>
+<div>
+    <label for="">Lastname</label>
+    <input type="text"name="last_name" formControlName="last_name"><br>
+    <span *ngIf="submited && myform.controls.last_name.invalid">please name</span>
+
+</div><br>
+
+<div>
+    <label for="">Gender</label>
+    <input type="radio" value="Male" name="Gender"formControlName="Gender"> <label>Male</label>
+    <input type="radio" value="FeMale" name="Gender"formControlName="Gender">  <label >FeMale</label><br>
+    <span *ngIf="submited && myform.controls.Gender.invalid">please name</span>
+</div><br>
+<div>
+    <label for="">Email</label>
+    <input type="text"name="email" formControlName="email"><br>
+    <span *ngIf="submited && myform.controls.email.invalid">please name</span>
+   
+</div><br>
+
+<div>
+    <label for="">Department</label>
+    <select name="dptname" id="" formControlName="dptname">
+        <option value="">--Select department--</option>
+        <option *ngFor="let dpt of deptlist" value="{{dpt.dptname}}">{{dpt.dptname}}</option>
+    </select>
+    <span *ngIf="submited && myform.controls.dptname.invalid">please name</span>
+  
+    
+
+</div><br>
+
+<button type="submit">Create</button>
+
+
+
+
+</form><br><br>
+
+
+
+
+
+<table border="2" style="width: 40%;">
+    <tr>
+        <!-- <th>profile</th> -->
+        <th>ID</th>
+        <th>FIRST NAME</th>
+        <th>LAST NAME</th>
+        <th>GENDER</th>
+        <th>Email</th>
+        <th>Deparment</th>
+        <th>Edit</th>
+    </tr>
+    <tr *ngFor="let emp of emplist">
+        <!-- <td><img src="{{emp.avatar}}" alt="profile" width="50px" height="40px"></td> -->
+        <td>{{emp.id}}</td>
+        <td>{{emp.first_name}}</td>
+        <td>{{emp.last_name}}</td>
+        <td>{{emp.Gender | settingGender }}</td>
+        <td>{{emp.email}}</td>
+        <td>{{emp.dptname}}</td>
+        <td><input type="button" (click)="Edit(emp.id)" value="Edit"></td>
+    </tr>
+
+</table>
